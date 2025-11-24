@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Josiah | Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="logo">DJ</div>
+        <div class="nav-links">
+            <a href="#hero" class="nav-link" data-i18n="nav.home">Home</a>
+            <a href="#about" class="nav-link" data-i18n="nav.about">About</a>
+            <a href="#portfolio" class="nav-link" data-i18n="nav.portfolio">Portfolio</a>
+            <a href="#volunteer" class="nav-link" data-i18n="nav.volunteer">Volunteer</a>
+            <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+        </div>
+        <div class="language-selector">
+            <button class="lang-btn active" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="es">ES</button>
+            <button class="lang-btn" data-lang="fr">FR</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title" data-i18n="hero.title">Hi, I'm <span class="highlight">Daniel Josiah</span></h1>
+                <h2 class="hero-subtitle" data-i18n="hero.subtitle">Graphics Designer & Video Editor</h2>
+                <p class="hero-description" data-i18n="hero.description">I create compelling visual stories through design and motion. With 15+ projects completed, I specialize in transforming ideas into engaging visual experiences.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="cta-button" data-i18n="hero.cta">View My Work</a>
+                    <a href="#contact" class="cta-button secondary" data-i18n="hero.contact">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <div class="card-content">
+                        <div class="card-icon design"></div>
+                        <h3>Graphic Design</h3>
+                        <p>15+ Projects</p>
+                    </div>
+                </div>
+                <div class="floating-card">
+                    <div class="card-content">
+                        <div class="card-icon video"></div>
+                        <h3>Video Editing</h3>
+                        <p>15+ Projects</p>
+                    </div>
+                </div>
+                <div class="floating-card">
+                    <div class="card-content">
+                        <div class="card-icon frontend"></div>
+                        <h3>Frontend Development</h3>
+                        <p>3 Web Games</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title" data-i18n="about.title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p data-i18n="about.text1">I'm a passionate creative professional with expertise in graphics design and video editing. My journey in digital creation has led me to explore the intersection of design and storytelling.</p>
+                <p data-i18n="about.text2">With over 15 completed projects in both graphic design and video editing, I've developed a keen eye for detail and a strong understanding of visual communication principles. I believe in creating work that not only looks beautiful but also effectively conveys the intended message.</p>
+                <p data-i18n="about.text3">Since 2024, I've expanded my skills into frontend development, creating interactive web games that combine my design sensibilities with technical implementation. I've completed 3 web game projects that showcase my ability to create engaging user experiences.</p>
+                
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="33">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="3">0</div>
+                        <div class="stat-label">Volunteer Organizations</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="4">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 data-i18n="skills.design">Design</h3>
+                    <ul class="skill-list">
+                        <li data-i18n="skills.graphic">Graphic Design</li>
+                        <li data-i18n="skills.uiux">UI/UX Design</li>
+                        <li data-i18n="skills.branding">Brand Identity</li>
+                        <li data-i18n="skills.print">Print Design</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 data-i18n="skills.video">Video</h3>
+                    <ul class="skill-list">
+                        <li data-i18n="skills.editing">Video Editing</li>
+                        <li data-i18n="skills.motion">Motion Graphics</li>
+                        <li data-i18n="skills.color">Color Grading</li>
+                        <li data-i18n="skills.audio">Audio Editing</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 data-i18n="skills.frontend">Frontend</h3>
+                    <ul class="skill-list">
+                        <li data-i18n="skills.htmlcss">HTML/CSS/JavaScript</li>
+                        <li data-i18n="skills.webgames">Web Games Development</li>
+                        <li data-i18n="skills.responsive">Responsive Design</li>
+                        <li data-i18n="skills.animation">CSS Animations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2 class="section-title" data-i18n="portfolio.title">My Portfolio</h2>
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="design">Graphic Design</button>
+            <button class="filter-btn" data-filter="video">Video Editing</button>
+            <button class="filter-btn" data-filter="web-game">Web Games</button>
+        </div>
+        <div class="portfolio-grid">
+            <!-- Design Projects -->
+            <div class="portfolio-item design">
+                <img src="pic2 (2).png" alt="Design Project" class="portfolio-image">
+                <div class="portfolio-overlay">
+                    <h3 class="portfolio-title">Brand Identity</h3>
+                    <p class="portfolio-description">Complete brand identity design for a streaming company</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">Logo</span>
+                        <span class="tag">Branding</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item design">
+                <img src="pic1.jpg" alt="Design Project" class="portfolio-image">
+                <div class="portfolio-overlay">
+                    <h3 class="portfolio-title">Flyer Design</h3>
+                    <p class="portfolio-description">A Lovefeast Flyer for a Campus Fellowship</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">Flyer</span>
+                        <span class="tag">Layout</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item design">
+                <img src="pic3.png" alt="Design Project" class="portfolio-image">
+                <div class="portfolio-overlay">
+                    <h3 class="portfolio-title">Certificate Design</h3>
+                    <p class="portfolio-description">A Certificate Design of Attendance and Participation</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">Certificate</span>
+                        <span class="tag">Print</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Video Projects -->
+            <div class="portfolio-item video">
+                <img src="https:/" alt="Video Project" class="portfolio-image">
+                <div class="portfolio-overlay">
+                    <h3 class="portfolio-title">Promotional Video</h3>
+                    <p class="portfolio-description">Corporate promotional video for a product launch</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">Editing</span>
+                        <span class="tag">Motion Graphics</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item video">
+                <img src="https://via.placeholder.com/400x300/112240/64ffda?text=Event+Video" alt="Video Project" class="portfolio-image">
+                <div class="portfolio-overlay">
+                    <h3 class="portfolio-title">Event Coverage</h3>
+                    <p class="portfolio-description">Full event video coverage and highlight reel</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">Event</span>
+                        <span class="tag">Color Grading</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item video">
+                <img src="https://via.placeholder.com/400x300/112240/64ffda?text=Social+Media" alt="Video Project" class="portfolio-image">
+                <div class="portfolio-overlay">
+                    <h3 class="portfolio-title">Social Media Content</h3>
+                    <p class="portfolio-description">Series of engaging videos for social media platforms</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">Social Media</span>
+                        <span class="tag">Short Form</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Web Game Projects -->
+            <div class="portfolio-item web-game">
+                <img src="" alt="Web Game Project" class="portfolio-image">
+                <div class="portfolio-overlay">
+                    <h3 class="portfolio-title">Space Adventure Game</h3>
+                    <p class="portfolio-description">Interactive space exploration game with dynamic gameplay</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">HTML5</span>
+                        <span class="tag">Game</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item web-game">
+                <img src="img1.png" alt="Web Game Project" class="portfolio-image">
+                <div class="portfolio-overlay">
+                    <h3 class="portfolio-title">Puzzle Challenge</h3>
+                    <p class="portfolio-description">Brain-teasing puzzle game with multiple levels</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Puzzle</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item web-game">
+                <img src="img3.png" alt="Web Game Project" class="portfolio-image">
+                <div class="portfolio-overlay">
+                    <h3 class="portfolio-title">Arcade Classic</h3>
+                    <p class="portfolio-description">Retro-style arcade game with modern twist</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">Canvas</span>
+                        <span class="tag">Animation</span>
+                        <span class="tag">Arcade</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteer Section -->
+    <section id="volunteer">
+        <h2 class="section-title" data-i18n="volunteer.title">Volunteer Work</h2>
+        <div class="volunteer-timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2023 - Present</div>
+                <div class="timeline-content">
+                    <h3>Learn by Building Foundation</h3>
+                    <p>Volunteering as a creative director, helping with visual content creation and design projects for educational initiatives.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2025 - Present</div>
+                <div class="timeline-content">
+                    <h3>Opolo Hub</h3>
+                    <p>Contributing design and video editing skills to support community programs and events.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2021 - Present</div>
+                <div class="timeline-content">
+                    <h3>My Mummy's Kitchen</h3>
+                    <p>Creating visual content and marketing materials for a family-run culinary business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title" data-i18n="contact.title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3 data-i18n="contact.connect">Let's Connect</h3>
+                <p data-i18n="contact.description">I'm always open to discussing new opportunities and creative projects.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon email"></div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>josiahdaniel4888@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon github"></div>
+                        <div class="contact-text">
+                            <h4>GitHub</h4>
+                            <p>github.com/Daniel-762/</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name" class="form-label" data-i18n="contact.name">Name</label>
+                    <input type="text" id="name" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label" data-i18n="contact.email">Email</label>
+                    <input type="email" id="email" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label" data-i18n="contact.message">Message</label>
+                    <textarea id="message" class="form-textarea" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn" data-i18n="contact.submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo">DJ</div>
+            <p class="footer-text" data-i18n="footer.text">Creating compelling visual stories through design and motion</p>
+            <div class="social-links">
+                <a href="https://github.com/Daniel-762" class="social-link">GitHub</a>
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="mailto:josiahdaniel4888@gmail.com" class="social-link">Email</a>
+            </div>
+        </div>
+        <p class="copyright" data-i18n="footer.copyright">© 2023 Daniel Josiah. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
